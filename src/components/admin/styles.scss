@@ -1,0 +1,30 @@
+table {
+    text-align: center;
+    width: 60rem;
+}
+
+td {
+    padding: 5px 0;
+}
+
+thead > tr {
+    border-bottom: 1px solid #c6c6c6;
+}
+
+th {
+    padding-bottom: 5px;
+}
+
+.row-actions {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    
+    
+    & > * {
+        transition: 0.2s ease-in;
+        &:hover {
+            transform: translateY(-1px);
+        }
+    }
+}

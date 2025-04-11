@@ -1,0 +1,18 @@
+.info-badge {
+    border-radius: 10px;
+    background-color: red;
+    font-size: 13px;
+    display: inline-block;
+    padding: 0.05rem 2rem;
+
+    &--published {
+        background-color: #d1fae5;
+        color: #065f46;
+    }
+
+    &--draft {
+        background-color: #fef3c7;
+        color: #92400e;
+        cursor: pointer;
+      }
+}
