@@ -1,0 +1,15 @@
+button {
+    all: unset;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    user-select: none;
+    transition: filter 0.2s ease;
+    font-weight: bold;
+    &:hover {
+        filter: brightness(1.15); 
+      }
+
+    &:active {
+        transform: translateY(1px); /* Soft press without scaling */    }
+}
